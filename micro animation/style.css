@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(260deg, #599fef ,#58d5f5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: white;
+    color: black;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+.home,.notifications,.messages{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.home-title,.notification-title,.message-title{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.notification-svg,.messages-svg{
+    overflow: visible;
+}
