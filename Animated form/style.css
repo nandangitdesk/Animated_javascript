@@ -142,3 +142,18 @@ button{
     opacity: 0;
     pointer-events: none;
 }
+@media screen and (max-width: 550px) {
+    form {
+      min-width: 90vw;
+      min-height: 80vh;
+      padding: 8rem 3rem;
+      flex-direction: column;
+    }
+    .line-svg{
+        width: 100%;
+    }
+    #character{
+        transform: scale(0.5) translate(0% ,30%);
+   
+    }
+}
